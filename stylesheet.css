@@ -1,0 +1,116 @@
+@font-face {
+  font-family: "Mi fuente";
+  src: url(fuentes/SourceSansPro-Regular.ttf);
+}
+
+@font-face {
+  font-family: "Mi fuente italica";
+  src: url(fuentes/SourceSansPro-Italic.ttf);
+}
+
+@font-face {
+  font-family: "Mi fuente light";
+  src: url(fuentes/SourceSansPro-Light.ttf);
+}
+
+/* @media (min-width: 375px) {
+  
+} */
+
+#title {
+  font-family: "Mi fuente";
+    font-size: 40px;
+    background-color: lightgray;
+    text-align: center;
+}
+
+body {
+  background-color: lightcyan;
+}
+
+#tribute-info {
+  font-family: "Mi fuente italica";
+  text-align: center;
+  font-size: 20px;
+}
+
+h2 {
+  font-family: "Mi fuente italica";
+  font-size: 25px;
+  text-align: center;
+}
+
+figure {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+}
+
+figure > div {
+
+  margin-top: 10px;
+
+}
+
+div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+figcaption {
+  font-family: "Mi fuente light";
+  font-size: 20px;
+  margin: 3px;
+}
+
+p {
+  font-family: "Mi fuente";
+    font-size: 17px;
+    text-align: justify;
+}
+
+#img-div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#image {
+  width: 100%;
+  max-width: 400px;
+  height: auto;
+  border: 5px solid grey;
+  border-radius: 25px;
+  box-shadow: 2px 2px 5px 2px grey;
+
+}
+img {
+  width: 100%;
+  max-width: 400px;
+  height: auto;
+  border: 5px solid grey;
+  border-radius: 25px;
+  box-shadow: 2px 2px 5px 2px grey;
+}
+
+#img-caption {
+  font-family: "Mi fuente light";
+  font-size: 20px;
+}
+
+a:hover {
+  color: lightcoral;
+}
+
+
+@media (min-width: 1440px) {
+    
+  figure {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+  }
+  }
